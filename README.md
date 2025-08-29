@@ -1,2 +1,2 @@
 # Suzuki
-I am no
+I am no artist
