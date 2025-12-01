@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url(pic/beige\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    padding-left: 8%;
+    padding-top: 20px;
+    padding-right: 8%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    text-decoration: none;
+    color: rgb(239, 229, 187);
+    background: #72512e;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    background: #d88b27;
+    transform: scale(1.1);
+    transition: .4s ease-in;
+}   
+
+
+.navbar .logo {
+    width: 300px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 3%;   
+    height: auto;  
+}
+
+ul {
+    margin-top: 1%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #72512e;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -40%;
+    margin: 10px;
+    transition: .4s;
+   
+}
+
+ul li a:hover {
+    color: #d88b27;
+    transition: .4s ease;
+}
+
+ .info{
+    margin-left: 8%;
+    margin-top: 10%;
+    
+ }
+
+ .info h1{
+    font-size: 70px;
+    color: #5a4025;
+    font-weight: bold;
+ }
+
+ .info h3{
+    font-size: 20px;
+    color: #27190b;
+    font-weight: bold;
+    line-height: 24px;
+ }
+  .info p{
+    font-size: 20px;
+    color: #2d1c0b;
+    margin-top: 5px;
+    width: 600px;
+    
+ }
+
+  .info span{
+    color: #e2841f;
+
+}
+
+.info a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(239, 229, 187);
+    background: #72512e;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.info a:hover{
+    background: #d88b27;
+    transition: .4s ease-in;
+}   
+
+.image{
+    position: absolute;
+    height: 60%;
+    bottom: 0px;
+    right: 100px;
+    width: 30%;
+}
+
+.image .thumbnail{
+    height: 150%;
+    position: absolute;
+    right: 0%;
+    transform: translate(8%);
+    bottom: 0%;
+    
+}
+
+.icons a{
+   text-decoration: none;
+   color: #72512e;
+}
+
+.icons{
+    position: absolute;
+    bottom: 130px;
+    left: 9%;
+    font-size: 40px;
+    display: flex;
+    gap: 20px;
+} 
+
+.icons a:hover{
+    color: #d88b27;
+    transition: .4s ease-in;
+}
