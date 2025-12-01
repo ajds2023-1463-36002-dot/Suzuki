@@ -1,0 +1,14 @@
+Ok you have 15 mins. make sure to record yourselves working on it. send me the final fixed. and explain how you fixed it and step by step process on how you went to this conclusion. also send me the exact error you found and where you found it.
+
+Scenario 14  Goal: Select all students with first_name "Ana".
+Save this in index.php
+<?php
+$conn = mysqli_connect("localhost", "root", "", "class_db");
+
+$sql = "SELECT * FROM students WHERE first_name = Ana";  
+$res = mysqli_query($conn, $sql);
+
+while ($r = mysqli_fetch_assoc($res)) {
+    echo $r['email'] . "<br>";
+}
+?>
